@@ -1,0 +1,1 @@
+select month(order_date) as 'month', sum(order_total) as 'Total Revenue' from orders_tbl group by month(order_date);
